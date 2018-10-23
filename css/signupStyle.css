@@ -1,0 +1,74 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	background-color: #e5e5d8;
+	font-family: 'Open Sans', sans-serif;
+}
+
+	#main {
+	width:  50%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	padding: 10px;
+	box-sizing: content-box;
+	text-align: center;
+	/*display: block;*/
+    
+}
+
+  #header{
+    background-image: url("../images/burg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100px;
+    
+}
+
+a {
+	text-decoration: none;
+}
+
+h2{
+	text-align: center;
+}
+
+form{
+	background-color: #ffffff;
+	color: #000000;
+	width: 100%;
+	margin: auto;
+	padding: 5px 5px 5px 25px;
+	text-align: left;
+	box-shadow:2px 1px 5px grey;
+	/*display: inline-block;*/
+}
+input{
+	border-radius: 3px;
+	box-sizing: border-box;
+	padding: 8px;
+	width: 50%;
+
+}
+.button{
+	background-color: #800020;
+	color: white;
+	border-radius: 30px;
+	border-style: solid;
+	border-color: #800030;
+	padding: 10px 25px 10px 25px;
+	text-align: center;
+	margin-left: 13em;
+}
+
+ .button:hover {
+    	background-color: #ffd700;
+    	color:#800020;
+    }
+
+#header button a {
+	color:#ffffff;
+}
